@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Municipio – Co-create Your City</title>
+    <title></title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,22 +19,18 @@
         <div class="brand">
           <span class="brand-emblem">M</span>
           <div>
-            <strong>Municipio</strong>
+            <strong id="brandName"></strong>
             <small id="tagline"></small>
           </div>
         </div>
         <div class="nav-actions">
           <label class="language-selector">
-            <span class="sr-only" id="language-label">Language</span>
+            <span class="sr-only" id="language-label"></span>
             <select id="language-switcher" aria-labelledby="language-label">
-              <option value="en">English</option>
-              <option value="cs">Čeština</option>
-              <option value="lv">Latviešu</option>
-              <option value="sl">Slovenščina</option>
             </select>
           </label>
-          <a class="button ghost" id="navAppLink" href="https://example.com/app" target="_blank" rel="noopener">App</a>
-          <a class="button" id="navDownloadLink" href="https://drive.google.com" target="_blank" rel="noopener">Downloads</a>
+          <a class="button ghost" id="navAppLink" href="https://example.com/app" target="_blank" rel="noopener"></a>
+          <a class="button" id="navDownloadLink" href="https://drive.google.com" target="_blank" rel="noopener"></a>
         </div>
       </nav>
 
@@ -51,8 +47,8 @@
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-card">
             <div class="card-top">
-              <span class="card-title">Municipio</span>
-              <span class="card-subtitle">Play | Learn | Change</span>
+              <span class="card-title" id="cardTitle"></span>
+              <span class="card-subtitle" id="cardSubtitle"></span>
             </div>
             <div class="city-grid">
               <span class="pin park"></span>
@@ -132,7 +128,7 @@
     <footer class="footer">
       <div class="container footer-content">
         <div>
-          <strong>Municipio</strong>
+          <strong id="footerBrandName"></strong>
           <p id="footerText"></p>
         </div>
         <ul class="footer-links">
