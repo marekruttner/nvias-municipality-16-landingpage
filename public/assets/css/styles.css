@@ -36,7 +36,7 @@ svg {
 
 .hero {
   position: relative;
-  background: linear-gradient(160deg, #0c2b4d 0%, #11426f 45%, #2db6ad 100%);
+  background: url('/assets/img/m16background.png') center/cover no-repeat;
   color: var(--color-white);
   padding-bottom: 6rem;
   overflow: hidden;
