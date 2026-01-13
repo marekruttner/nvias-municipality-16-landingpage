@@ -6,19 +6,13 @@ let languages = [];
 
 const textElements = {
   pageTitle: document.querySelector('title'),
-  brandName: document.getElementById('brandName'),
   footerBrandName: document.getElementById('footerBrandName'),
-  cardTitle: document.getElementById('cardTitle'),
-  cardSubtitle: document.getElementById('cardSubtitle'),
   languageLabel: document.getElementById('language-label'),
   navAppLink: document.getElementById('navAppLink'),
-  navDownloadLink: document.getElementById('navDownloadLink'),
-  tagline: document.getElementById('tagline'),
   heroEyebrow: document.getElementById('heroEyebrow'),
   heroTitle: document.getElementById('heroTitle'),
   heroLead: document.getElementById('heroLead'),
   heroAppLink: document.getElementById('heroAppLink'),
-  heroDownloadLink: document.getElementById('heroDownloadLink'),
   aboutTitle: document.getElementById('aboutTitle'),
   aboutText: document.getElementById('aboutText'),
   pillarOneTitle: document.getElementById('pillarOneTitle'),
@@ -38,22 +32,16 @@ const textElements = {
   ctaTitle: document.getElementById('ctaTitle'),
   ctaText: document.getElementById('ctaText'),
   ctaAppLink: document.getElementById('ctaAppLink'),
-  ctaDownloadLink: document.getElementById('ctaDownloadLink'),
   footerText: document.getElementById('footerText'),
   footerAppLink: document.getElementById('footerAppLink'),
-  footerDownloadLink: document.getElementById('footerDownloadLink'),
   footerContactLink: document.getElementById('footerContactLink'),
 };
 
 const linkElements = [
   document.getElementById('navAppLink'),
-  document.getElementById('navDownloadLink'),
   document.getElementById('heroAppLink'),
-  document.getElementById('heroDownloadLink'),
   document.getElementById('ctaAppLink'),
-  document.getElementById('ctaDownloadLink'),
   document.getElementById('footerAppLink'),
-  document.getElementById('footerDownloadLink'),
   document.getElementById('footerContactLink'),
 ];
 

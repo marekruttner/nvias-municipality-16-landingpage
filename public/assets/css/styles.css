@@ -46,23 +46,19 @@ svg {
 .hero::after {
   content: '';
   position: absolute;
-  border-radius: 50%;
-  opacity: 0.18;
-  background: radial-gradient(circle at center, rgba(123, 214, 255, 0.75), transparent 70%);
+  inset: 0;
+  z-index: 0;
 }
 
 .hero::before {
-  width: 420px;
-  height: 420px;
-  top: -160px;
-  right: -120px;
+  background: rgba(6, 18, 33, 0.55);
 }
 
 .hero::after {
-  width: 520px;
-  height: 520px;
-  bottom: -260px;
-  left: -140px;
+  background:
+    radial-gradient(circle at top right, rgba(123, 214, 255, 0.45), transparent 60%),
+    radial-gradient(circle at bottom left, rgba(123, 214, 255, 0.35), transparent 65%);
+  opacity: 0.5;
 }
 
 .top-nav {
@@ -81,31 +77,10 @@ svg {
   font-weight: 600;
 }
 
-.brand strong {
-  display: block;
-  font-size: 1.1rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.brand small {
-  display: block;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.76);
-}
-
-.brand-emblem {
-  width: 42px;
-  height: 42px;
-  background: linear-gradient(135deg, var(--color-lime), var(--color-teal));
-  color: var(--color-navy);
-  font-weight: 700;
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+.brand-logo {
+  height: 64px;
+  width: auto;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.35));
 }
 
 .nav-actions {
@@ -232,108 +207,6 @@ svg {
   gap: 1rem;
 }
 
-.hero-visual {
-  display: flex;
-  justify-content: center;
-}
-
-.hero-card {
-  background: var(--color-sand);
-  border-radius: 24px;
-  padding: 1.75rem;
-  width: min(320px, 90vw);
-  box-shadow: var(--shadow-soft);
-  position: relative;
-}
-
-.card-top {
-  background: linear-gradient(135deg, var(--color-navy), var(--color-blue));
-  border-radius: 18px;
-  padding: 1.25rem;
-  color: var(--color-white);
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-align: center;
-}
-
-.city-grid {
-  margin-top: 1.4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-}
-
-.pin {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 74px;
-  height: 74px;
-  border-radius: 18px;
-  position: relative;
-  background: var(--color-white);
-  box-shadow: 0 18px 34px rgba(12, 43, 77, 0.14);
-}
-
-.pin::after {
-  content: '';
-  position: absolute;
-  bottom: -14px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  opacity: 0.6;
-  filter: blur(6px);
-}
-
-.pin.park {
-  background: linear-gradient(135deg, #9be564, #3bc785);
-}
-
-.pin.park::after {
-  background: rgba(59, 199, 133, 0.55);
-}
-
-.pin.lab {
-  background: linear-gradient(135deg, #7bd6ff, #2e9bea);
-}
-
-.pin.lab::after {
-  background: rgba(46, 155, 234, 0.45);
-}
-
-.pin.school {
-  background: linear-gradient(135deg, #ffc36e, #ff7d4d);
-}
-
-.pin.school::after {
-  background: rgba(255, 125, 77, 0.4);
-}
-
-.pin.hub {
-  background: linear-gradient(135deg, #fba6d1, #e8518f);
-}
-
-.pin.hub::after {
-  background: rgba(232, 81, 143, 0.45);
-}
-
-.pin.house {
-  background: linear-gradient(135deg, #b3b2ff, #6463ff);
-}
-
-.pin.house::after {
-  background: rgba(100, 99, 255, 0.42);
-}
-
-.pin.library {
-  background: linear-gradient(135deg, #ffe27d, #ffd447);
-}
-
-.pin.library::after {
-  background: rgba(255, 212, 71, 0.42);
-}
 
 .section {
   padding: clamp(4rem, 8vw, 6rem) 0;
