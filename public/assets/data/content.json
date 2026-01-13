@@ -1,31 +1,36 @@
 {
   "links": {
     "app": "app.municipality16plus.eu",
-    "downloads": "https://drive.google.com",
     "contact": "mailto:info@municipio.eu"
   },
   "languages": [
-    { "code": "en", "label": "English" },
-    { "code": "cs", "label": "Čeština" },
-    { "code": "lv", "label": "Latviešu" },
-    { "code": "sl", "label": "Slovenščina" }
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "cs",
+      "label": "Čeština"
+    },
+    {
+      "code": "lv",
+      "label": "Latviešu"
+    },
+    {
+      "code": "sl",
+      "label": "Slovenščina"
+    }
   ],
   "translations": {
     "en": {
       "pageTitle": "Municipio – Co-create Your City",
-      "brandName": "Municipio",
       "footerBrandName": "Municipio",
-      "cardTitle": "Municipio",
-      "cardSubtitle": "Play | Learn | Change",
       "languageLabel": "Language",
       "navAppLink": "App",
-      "navDownloadLink": "Downloads",
-      "tagline": "Co-create your city",
       "heroEyebrow": "Play · Learn · Change",
       "heroTitle": "Municipio empowers young people to redesign their neighbourhoods",
       "heroLead": "Municipio is a board game and digital toolkit that helps schools and youth organisations explore civic challenges, design inclusive solutions, and collaborate with their communities.",
       "heroAppLink": "Open the web application",
-      "heroDownloadLink": "Download materials",
       "aboutTitle": "About the project",
       "aboutText": "Municipio combines playful learning with real-world impact. The Municipality 16+ partnership co-created the game with educators, municipalities, and young changemakers across Europe to make civic participation tangible, collaborative, and fun.",
       "pillarOneTitle": "Game-based learning",
@@ -45,27 +50,19 @@
       "ctaTitle": "Ready to bring Municipio to your community?",
       "ctaText": "Start with the digital app or download the facilitation toolkit to run your own Municipio lab.",
       "ctaAppLink": "Launch the app",
-      "ctaDownloadLink": "Get the download pack",
       "footerText": "A Municipality 16+ collaboration powered by nvias.org and partners across Europe.",
       "footerAppLink": "Municipio web application",
-      "footerDownloadLink": "Downloadable resources",
       "footerContactLink": "Contact the team"
     },
     "cs": {
       "pageTitle": "Municipio – Spoluvytvářej své město",
-      "brandName": "Municipio",
       "footerBrandName": "Municipio",
-      "cardTitle": "Municipio",
-      "cardSubtitle": "Hraj | Uč se | Měň",
       "languageLabel": "Jazyk",
       "navAppLink": "Aplikace",
-      "navDownloadLink": "Ke stažení",
-      "tagline": "Spoluvytvářej své město",
       "heroEyebrow": "Hraj · Uč se · Měň",
       "heroTitle": "Municipio dává mladým lidem sílu přetvářet své okolí",
       "heroLead": "Municipio je desková hra a digitální nástroje, které školám i organizacím práce s mládeží pomáhají zkoumat občanské výzvy, navrhovat inkluzivní řešení a spolupracovat s komunitou.",
       "heroAppLink": "Otevřít webovou aplikaci",
-      "heroDownloadLink": "Stáhnout materiály",
       "aboutTitle": "O projektu",
       "aboutText": "Municipio propojuje hravé učení se skutečným dopadem. Partnerství Municipality 16+ vytvořilo hru společně s učiteli, městy a mladými inovátory po celé Evropě, aby byla občanská participace hmatatelná, spolupracující a zábavná.",
       "pillarOneTitle": "Učení hrou",
@@ -85,27 +82,19 @@
       "ctaTitle": "Připraveni přinést Municipio do své komunity?",
       "ctaText": "Začni digitální aplikací nebo si stáhni metodický balíček a zorganizuj vlastní Municipio lab.",
       "ctaAppLink": "Spustit aplikaci",
-      "ctaDownloadLink": "Získat balíček ke stažení",
       "footerText": "Spolupráce Municipality 16+ za podpory nvias.org a partnerů po celé Evropě.",
       "footerAppLink": "Webová aplikace Municipio",
-      "footerDownloadLink": "Materiály ke stažení",
       "footerContactLink": "Kontaktujte tým"
     },
     "lv": {
       "pageTitle": "Municipio – Līdzradī savu pilsētu",
-      "brandName": "Municipio",
       "footerBrandName": "Municipio",
-      "cardTitle": "Municipio",
-      "cardSubtitle": "Spēlē | Mācies | Pārveido",
       "languageLabel": "Valoda",
       "navAppLink": "Lietotne",
-      "navDownloadLink": "Lejupielādes",
-      "tagline": "Līdzradī savu pilsētu",
       "heroEyebrow": "Spēlē · Mācies · Pārveido",
       "heroTitle": "Municipio iedrošina jauniešus pārveidot savu apkārtni",
       "heroLead": "Municipio ir galda spēle un digitāls rīkkopums, kas palīdz skolām un jaunatnes organizācijām pētīt pilsoniskos izaicinājumus, veidot iekļaujošus risinājumus un sadarboties ar kopienām.",
       "heroAppLink": "Atvērt tīmekļa lietotni",
-      "heroDownloadLink": "Lejupielādēt materiālus",
       "aboutTitle": "Par projektu",
       "aboutText": "Municipio apvieno rotaļīgu mācīšanos ar reālu ietekmi. Municipality 16+ partnerība kopā ar pedagogiem, pašvaldībām un jaunajiem līderiem visā Eiropā radīja spēli, kas padara pilsonisko līdzdalību taustāmu, sadarbības pilnu un aizraujošu.",
       "pillarOneTitle": "Spēļmācība",
@@ -125,27 +114,19 @@
       "ctaTitle": "Gatavi ieviest Municipio savā kopienā?",
       "ctaText": "Sāc ar digitālo lietotni vai lejupielādē rīkkopu, lai vadītu savu Municipio darbnīcu.",
       "ctaAppLink": "Palaist lietotni",
-      "ctaDownloadLink": "Saņemt lejupielādes komplektu",
       "footerText": "Municipality 16+ sadarbība ar nvias.org un partneriem visā Eiropā.",
       "footerAppLink": "Municipio tīmekļa lietotne",
-      "footerDownloadLink": "Resursi lejupielādei",
       "footerContactLink": "Sazinies ar komandu"
     },
     "sl": {
       "pageTitle": "Municipio – Sooblikuj svoje mesto",
-      "brandName": "Municipio",
       "footerBrandName": "Municipio",
-      "cardTitle": "Municipio",
-      "cardSubtitle": "Igraj | Uči se | Spreminjaj",
       "languageLabel": "Jezik",
       "navAppLink": "Aplikacija",
-      "navDownloadLink": "Prenosi",
-      "tagline": "Sooblikuj svoje mesto",
       "heroEyebrow": "Igraj · Uči se · Spreminjaj",
       "heroTitle": "Municipio mladim daje orodja, da preoblikujejo svojo skupnost",
       "heroLead": "Municipio je namizna igra in digitalni komplet orodij, ki šolam ter mladinskim organizacijam pomaga raziskovati družbene izzive, soustvarjati vključujoče rešitve in graditi partnerstva v lokalnem okolju.",
       "heroAppLink": "Odpri spletno aplikacijo",
-      "heroDownloadLink": "Prenesi gradiva",
       "aboutTitle": "O projektu",
       "aboutText": "Municipio povezuje igrivo učenje z resničnim vplivom. Partnerstvo Municipality 16+ je skupaj z učitelji, občinami in mladimi ustvarjalci po vsej Evropi zasnovalo igro, ki omogoča oprijemljivo, sodelovalno in zabavno državljansko udejstvovanje.",
       "pillarOneTitle": "Učenje skozi igro",
@@ -165,10 +146,8 @@
       "ctaTitle": "Ste pripravljeni prinesti Municipio v svojo skupnost?",
       "ctaText": "Začnite s spletno aplikacijo ali prenesite paket za vodenje lastnega Municipio laboratorija.",
       "ctaAppLink": "Zaženi aplikacijo",
-      "ctaDownloadLink": "Prenesi paket gradiv",
       "footerText": "Partnerstvo Municipality 16+ v sodelovanju z nvias.org in partnerji po Evropi.",
       "footerAppLink": "Spletna aplikacija Municipio",
-      "footerDownloadLink": "Gradiva za prenos",
       "footerContactLink": "Kontaktiraj ekipo"
     }
   }
