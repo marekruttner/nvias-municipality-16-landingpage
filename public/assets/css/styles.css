@@ -123,14 +123,12 @@ img, svg { max-width: 100%; display: block; }
 .footer-content { display: grid; gap: 1.5rem; }
 #footerDisclaimer { font-size: 0.9rem; opacity: 0.9; max-width: 85ch; }
 
-.partner-logos {
-  margin-top: 0.25rem;
-}
-
-.partner-logos img {
-  width: min(560px, 100%);
-  height: auto;
-  display: block;
+.partner-logos { display: flex; flex-wrap: wrap; gap: 0.65rem; }
+.partner-logos span {
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.86rem;
 }
 
 .sr-only {
