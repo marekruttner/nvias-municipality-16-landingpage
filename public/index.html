@@ -17,15 +17,15 @@
     <header class="hero">
       <nav class="top-nav">
         <div class="brand">
-          <img class="brand-logo" src="assets/img/title_Municipo.svg" alt="Municipio" />
+          <img class="brand-logo" src="assets/img/title_Municipo.svg" alt="Municipality 16+" />
+          <span class="brand-text" id="brandText"></span>
         </div>
         <div class="nav-actions">
           <label class="language-selector">
             <span class="sr-only" id="language-label"></span>
-            <select id="language-switcher" aria-labelledby="language-label">
-            </select>
+            <select id="language-switcher" aria-labelledby="language-label"></select>
           </label>
-          <a class="button ghost" id="navAppLink" href="https://example.com/app" target="_blank" rel="noopener"></a>
+          <a class="button ghost" id="navParticipationLink" href="https://participationindex.eu" target="_blank" rel="noopener"></a>
         </div>
       </nav>
 
@@ -35,69 +35,57 @@
           <h1 id="heroTitle"></h1>
           <p class="hero-lead" id="heroLead"></p>
           <div class="hero-actions">
-            <a class="button" id="heroAppLink" href="https://example.com/app" target="_blank" rel="noopener"></a>
+            <a class="button" id="heroProjectLink" href="#project"></a>
           </div>
         </div>
-        <div class="hero-visual" aria-hidden="true"></div>
       </div>
     </header>
 
     <main>
-      <section class="section" id="about">
+      <section class="section" id="project">
         <div class="container">
-          <h2 id="aboutTitle"></h2>
-          <p id="aboutText"></p>
-          <div class="pillars">
-            <article>
-              <h3 id="pillarOneTitle"></h3>
-              <p id="pillarOneText"></p>
-            </article>
-            <article>
-              <h3 id="pillarTwoTitle"></h3>
-              <p id="pillarTwoText"></p>
-            </article>
-            <article>
-              <h3 id="pillarThreeTitle"></h3>
-              <p id="pillarThreeText"></p>
-            </article>
-          </div>
+          <h2 id="projectTitle"></h2>
+          <p id="projectText"></p>
         </div>
       </section>
 
-      <section class="section alt" id="how">
+      <section class="section alt" id="solutions">
         <div class="container">
           <div class="section-header">
-            <h2 id="howTitle"></h2>
-            <p id="howIntro"></p>
+            <h2 id="solutionsTitle"></h2>
+            <p id="solutionsIntro"></p>
           </div>
-          <div class="steps">
-            <div class="step">
-              <span class="step-number">1</span>
-              <h3 id="stepOneTitle"></h3>
-              <p id="stepOneText"></p>
-            </div>
-            <div class="step">
-              <span class="step-number">2</span>
-              <h3 id="stepTwoTitle"></h3>
-              <p id="stepTwoText"></p>
-            </div>
-            <div class="step">
-              <span class="step-number">3</span>
-              <h3 id="stepThreeTitle"></h3>
-              <p id="stepThreeText"></p>
-            </div>
+          <div class="pillars two-columns">
+            <article>
+              <h3 id="municipoTitle"></h3>
+              <p id="municipoText"></p>
+              <a class="button small" id="municipoLink" href="https://app.municipality16plus.eu" target="_blank" rel="noopener"></a>
+            </article>
+            <article>
+              <h3 id="indexTitle"></h3>
+              <p id="indexText"></p>
+              <a class="button small" id="indexLink" href="https://participationindex.eu" target="_blank" rel="noopener"></a>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section highlight" id="cta">
-        <div class="container cta">
-          <div>
-            <h2 id="ctaTitle"></h2>
-            <p id="ctaText"></p>
+      <section class="section highlight" id="contact">
+        <div class="container">
+          <div class="cta">
+            <div>
+              <h2 id="ctaTitle"></h2>
+              <p id="ctaText"></p>
+            </div>
+            <div class="cta-actions">
+              <a class="button light" id="ctaContactLink" href="mailto:info@municipio.eu"></a>
+            </div>
           </div>
-          <div class="cta-actions">
-            <a class="button light" id="ctaAppLink" href="https://example.com/app" target="_blank" rel="noopener"></a>
+
+          <div class="partners">
+            <article class="partner-card"><h3>PiNA</h3><p id="partnerPina"></p></article>
+            <article class="partner-card"><h3>NVIAS</h3><p id="partnerNvias"></p></article>
+            <article class="partner-card"><h3>Transparency International Latvia (Delna)</h3><p id="partnerDelna"></p></article>
           </div>
         </div>
       </section>
@@ -108,11 +96,11 @@
         <div>
           <strong id="footerBrandName"></strong>
           <p id="footerText"></p>
+          <p id="footerDisclaimer"></p>
         </div>
-        <ul class="footer-links">
-          <li><a id="footerAppLink" href="https://example.com/app" target="_blank" rel="noopener"></a></li>
-          <li><a id="footerContactLink" href="mailto:info@municipio.eu"></a></li>
-        </ul>
+        <div class="partner-logos" aria-label="Project partners">
+          <img src="assets/img/logotip_m16.png" alt="Municipality 16+ partner logos" />
+        </div>
       </div>
     </footer>
 

@@ -6,44 +6,40 @@ let languages = [];
 
 const textElements = {
   pageTitle: document.querySelector('title'),
+  brandText: document.getElementById('brandText'),
   footerBrandName: document.getElementById('footerBrandName'),
   languageLabel: document.getElementById('language-label'),
-  navAppLink: document.getElementById('navAppLink'),
+  navParticipationLink: document.getElementById('navParticipationLink'),
   heroEyebrow: document.getElementById('heroEyebrow'),
   heroTitle: document.getElementById('heroTitle'),
   heroLead: document.getElementById('heroLead'),
-  heroAppLink: document.getElementById('heroAppLink'),
-  aboutTitle: document.getElementById('aboutTitle'),
-  aboutText: document.getElementById('aboutText'),
-  pillarOneTitle: document.getElementById('pillarOneTitle'),
-  pillarOneText: document.getElementById('pillarOneText'),
-  pillarTwoTitle: document.getElementById('pillarTwoTitle'),
-  pillarTwoText: document.getElementById('pillarTwoText'),
-  pillarThreeTitle: document.getElementById('pillarThreeTitle'),
-  pillarThreeText: document.getElementById('pillarThreeText'),
-  howTitle: document.getElementById('howTitle'),
-  howIntro: document.getElementById('howIntro'),
-  stepOneTitle: document.getElementById('stepOneTitle'),
-  stepOneText: document.getElementById('stepOneText'),
-  stepTwoTitle: document.getElementById('stepTwoTitle'),
-  stepTwoText: document.getElementById('stepTwoText'),
-  stepThreeTitle: document.getElementById('stepThreeTitle'),
-  stepThreeText: document.getElementById('stepThreeText'),
+  heroProjectLink: document.getElementById('heroProjectLink'),
+  projectTitle: document.getElementById('projectTitle'),
+  projectText: document.getElementById('projectText'),
+  solutionsTitle: document.getElementById('solutionsTitle'),
+  solutionsIntro: document.getElementById('solutionsIntro'),
+  municipoTitle: document.getElementById('municipoTitle'),
+  municipoText: document.getElementById('municipoText'),
+  municipoLink: document.getElementById('municipoLink'),
+  indexTitle: document.getElementById('indexTitle'),
+  indexText: document.getElementById('indexText'),
+  indexLink: document.getElementById('indexLink'),
   ctaTitle: document.getElementById('ctaTitle'),
   ctaText: document.getElementById('ctaText'),
-  ctaAppLink: document.getElementById('ctaAppLink'),
+  ctaContactLink: document.getElementById('ctaContactLink'),
+  partnerPina: document.getElementById('partnerPina'),
+  partnerNvias: document.getElementById('partnerNvias'),
+  partnerDelna: document.getElementById('partnerDelna'),
   footerText: document.getElementById('footerText'),
-  footerAppLink: document.getElementById('footerAppLink'),
-  footerContactLink: document.getElementById('footerContactLink'),
+  footerDisclaimer: document.getElementById('footerDisclaimer')
 };
 
-const linkElements = [
-  document.getElementById('navAppLink'),
-  document.getElementById('heroAppLink'),
-  document.getElementById('ctaAppLink'),
-  document.getElementById('footerAppLink'),
-  document.getElementById('footerContactLink'),
-];
+const linkConfig = {
+  navParticipationLink: 'participationIndex',
+  municipoLink: 'app',
+  indexLink: 'participationIndex',
+  ctaContactLink: 'contact'
+};
 
 const languageSwitcher = document.getElementById('language-switcher');
 
@@ -68,16 +64,10 @@ const updateLanguage = (language) => {
 };
 
 const applyLinks = () => {
-  linkElements.forEach((element) => {
-    if (!element) return;
-    const id = element.id.toLowerCase();
-    if (id.includes('app')) {
-      element.href = links.app ?? element.href;
-    } else if (id.includes('download')) {
-      element.href = links.downloads ?? element.href;
-    } else if (id.includes('contact')) {
-      element.href = links.contact ?? element.href;
-    }
+  Object.entries(linkConfig).forEach(([elementId, linkKey]) => {
+    const element = document.getElementById(elementId);
+    if (!element || !links[linkKey]) return;
+    element.href = links[linkKey];
   });
 };
 
